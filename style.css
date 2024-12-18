@@ -1,0 +1,60 @@
+/*variables*/
+:root {
+	--background-primary: #d6e2f0;
+	--background-secondary: #ffffff;
+	--heading-primary: #1f3251;
+	--text-primary: #68778d;
+	--outfit-font: "Outfit", "Times New Roman", serif;
+}
+
+body {
+	background-color: var(--background-primary);
+	color: var(--text-primary);
+	font-family: var(--outfit-font);
+	min-height: 100vh;
+	padding: 30px;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
+
+main {
+	display: flex;
+	align-items: center;
+}
+
+.qr {
+	background-color: var(--background-secondary);
+	padding: 15px;
+	border-radius: 20px;
+	box-shadow: 0px 24px 52px -13px rgba(104,119,141,0.7);
+	max-width: 350px;
+	width: 100%;
+}
+
+.qr__img {
+	border-radius: 15px;
+	overflow: hidden;
+}
+
+.qr__img img {
+	max-width: 100%;
+	width: 100%;
+}
+
+.qr__text {
+	padding: 25px 15px 20px 15px;
+}
+
+h1 {
+	font-size: 1.6em;
+	font-weight: 700;
+	text-align: center;
+	color: var(--heading-primary);
+	padding-bottom: 15px;
+}
+
+p {
+	text-align: center;
+	line-height: 1.4;
+}
